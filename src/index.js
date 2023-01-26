@@ -223,10 +223,10 @@ class SmoothPinCodeInput extends Component {
 					numberOfLines={1}
 					caretHidden
 					maxLength={codeLength}
-					selection={{
-						start: value.length,
-						end: value.length,
-					}}
+					// selection={{
+					// 	start: value.length,
+					// 	end: value.length,
+					// }}
 					style={{
 						flex: 1,
 						opacity: 0,
